@@ -21,7 +21,6 @@ export const App = () => {
   };
 
   const onClickBtn = name => {
-    const name = { good, neutral, bad };
     switch (name) {
       case 'good':
         setGood(prev => prev + 1);
